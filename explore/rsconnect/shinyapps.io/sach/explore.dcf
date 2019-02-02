@@ -1,0 +1,10 @@
+name: explore
+title:
+username:
+account: sach
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 684287
+bundleId: 1851750
+url: https://sach.shinyapps.io/explore/
+when: 1549095839.29239

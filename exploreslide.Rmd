@@ -1,0 +1,36 @@
+---
+title: "explore"
+author: "sachin gowda"
+date: "2 February 2019"
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+This is a couple of slides explaining the data product developed in the same repository. It is product for project,
+this product is used to look into examples of how data from a dataset can be represented and how you can go throught the different 
+variables of the dataset and look at their relationships with each other.
+
+## Reasons to use the prodeuct
+
+- To see how data can be represented 
+- Get an idea about the relationships of the diiferent variables
+- Use later for analysis to b e performed on different datasets
+
+## Look at the data sets used
+```{r cars, echo = F}
+str(mtcars)
+```
+
+## iris dataset
+
+```{r pressure}
+pairs(iris)
+```
+ THANK YOU
